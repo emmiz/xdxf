@@ -1,0 +1,10 @@
+3	Här bestämmer vi att vi skall utgå från rotnoden.
+4	Vi börjar med att gå ner till newspaper eftersom vi skall lista allt innehåll från varje tidning för sig.
+5	Eftersom vi inte vill ha några brutna taggar så måste vi sedan gå ännu ett steg ner för att varje rad skall innehålla en artikel.
+7--32	Eftersom vi vill skriva ut info om vilken tidning artikeln hör till enbart på den första artikelns rad (med rowspan 3) så måste vi specificera detta med att detta gäller enbart för position()=1.
+9-11	Tidningens info listas ut
+12	Artikelns id listas
+13-20	Eftersom attributet datum på artikeln inte alltid finns måste vi använda oss av en choose - when - otherwise och kontrollera med count(), om alla attribut som ligger under artikel inte är 2 till antalet så skrivs no date ut i annat fall datumet.
+21-22	Artikelns heading och text listas.
+23-30	Eftersom taggen comment på artikeln inte alltid finns använder jag choose - when - otherwise och kontrollerar med count() om antal taggar som ligger i artikel är 3. Är det det skrivs description ut, i annat fall no info.
+33--55	Samma sak som ovan men om det inte är den första artikeln i tidningen så skrivs ingen info om tidingen ut utan bara info om artikeln.

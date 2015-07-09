@@ -1,0 +1,23 @@
+<!-- <persons> -->
+	<person ssn="111213-1415" shoesize="52">
+		<name>Greger</name>
+		<address street="12th"/>
+		<address street="14th"/>
+		<car lpno="abc123">
+			<color>Red!!</color>
+		</car>
+		<car lpno="cde245">
+			<color>Green!!</color>
+		</car>
+		<car lpno="def678">
+			<color>Teal!!</color>
+		</car>
+	</person>
+<!--	<person ssn="821019-5965" shoesize="40">
+		<name>Emma</name>
+		<address street="3rd"/>
+		<car lpno="dfx532">
+			<color>Black!!</color>
+		</car>
+	</person>
+</persons> -->

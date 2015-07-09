@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xdxf SYSTEM "xdxf.dtd">
+
+<xdxf lang_from="ENG" lang_to="ENG" format="visual">
+	<full_name>
+		Webster's Unabridged Dictionary
+	</full_name>
+	<description>
+		Webster's Unabridged Dictionary published 1913 by the...
+	</description>  
+
+	<abbreviations>
+		<abr_def>
+			<k>
+				n.
+			</k>
+			<v>
+				noun
+			</v>
+		</abr_def>
+		<abr_def>
+			<k>
+				v.
+			</k>
+			<v>
+				verb
+			</v>
+		</abr_def>
+		<abr_def>
+			<k>
+				Av.
+			</k>
+			<k>
+				Ave.
+			</k>
+			<v>
+				Avenue
+			</v>
+		</abr_def>
+	</abbreviations>
+
+	<ar>
+		<k>
+			<opt>
+				The 
+			</opt>
+			United States
+			<opt>
+				of America
+			</opt>
+		</k>
+	</ar>
+
+	<ar>
+		<k>
+			record
+		</k>
+		<pos>
+			<abr>
+				n.
+			</abr>
+		</pos>
+		[
+		<tr>
+			re'kord
+		</tr>
+		] Anything written down and preserved.
+		<pos>
+			<abr>
+				v.
+			</abr>
+		</pos>
+		[
+		<tr>
+			reko'rd
+		</tr>
+		]
+		To write down for future use.
+	</ar>
+
+	<ar>
+		<k>
+			home
+		</k>
+		[
+		<tr>
+			ho:um
+		</tr>
+		]
+		<pos>
+			<abr>
+				n.
+			</abr>
+		</pos>
+		<rref start="16384" size="512">
+			sounds_of_words.ogg 
+		</rref>
+		1) One's own dwelling place; the house in which one livs.2) One's native land; the place or country in which one dwells.
+		3) The abiding place of the affections. 
+		<ex>
+			For without hearts there is no home.
+		</ex>
+		4) 
+		<dtrn>
+			дом 
+		</dtrn>
+		at home -  make yourself at home -
+		<ex>
+			XDXF Home page:  
+			<iref>
+				http://xdxf.sourceforge.net 
+			</iref>
+		</ex>
+		See also: 
+		<kref>
+			home-made 
+		</kref>
+	</ar>
+
+	<ar f="l">
+		<k>
+			home
+		</k>
+		<tr>
+			houm
+		</tr>
+		<pos>
+			<abr>
+				n.
+			</abr>
+		</pos>
+		<rref start="16384" size="512">
+			sounds_of_words.ogg 
+		</rref>
+		<def>
+			One's own dwelling place; the house in which one lives.
+		</def>
+		<def>
+			One's native land; the place or country in which one dwells.
+		</def>
+		<def>
+			The abiding place of the affections. 
+			<ex>
+				For without hearts there is no home.
+			</ex>
+		</def>
+		<def>
+			<dtrn>
+						
+			</dtrn>
+			at ome - make yourself at home - 
+		</def>
+		<ex>
+			XDXF Home page: 
+			<iref>
+				http://xdxf.sourceforge.net 
+			</iref>
+		</ex>
+		See also: 
+		<kref>
+			home-made
+		</kref>
+	</ar>
+
+	<ar>
+		<k>
+			indices
+		</k>
+		Plural form of word 
+		<kref>
+			index
+		</kref>
+	</ar>
+
+	<ar>
+		<k>
+			disc
+		</k>
+		<k>
+			disk
+		</k>
+		<pos>
+			<abr>
+				n.
+			</abr>
+		</pos>
+		A flat, circular plate; as, a disk of metal or paper.
+	</ar>
+
+	<ar>
+		<k>
+			CO
+			<nu>
+					
+			</nu>
+			2
+			<nu>
+					
+			</nu>
+		</k>
+		Carbon dioxide (CO2) - a heavy odorless gas formed dring respiration.
+	</ar>
+
+</xdxf>

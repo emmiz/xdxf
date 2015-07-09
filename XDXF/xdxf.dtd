@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!ELEMENT xdxf (full_name,description,abbreviations,ar+)>
+<!ATTLIST xdxf lang_from CDATA #REQUIRED>
+<!ATTLIST xdxf lang_to CDATA #REQUIRED>
+<!ATTLIST xdxf format CDATA #REQUIRED>
+
+	<!ELEMENT full_name (#PCDATA)>
+
+	<!ELEMENT description (#PCDATA)>
+
+	<!ELEMENT abbreviations (abr_def*)>
+
+		<!ELEMENT abr_def (k*,v)>
+
+			<!ELEMENT k (#PCDATA|opt|nu)* >
+
+			<!ELEMENT v (#PCDATA)>
+
+	<!ELEMENT ar (#PCDATA|k|def|pos|tr|dtrn|kref|rref|ex)* >
+	<!ATTLIST ar f CDATA #IMPLIED>
+		
+			<!ELEMENT opt (#PCDATA)>
+			
+			<!ELEMENT nu (#PCDATA)*>
+			
+		<!ELEMENT pos (abr)>
+		
+			<!ELEMENT abr (#PCDATA)>
+		
+		<!ELEMENT tr (#PCDATA)>
+		
+		<!ELEMENT rref (#PCDATA)>
+		<!ATTLIST rref start CDATA #REQUIRED>
+		<!ATTLIST rref size CDATA #REQUIRED>
+		
+		<!ELEMENT ex (#PCDATA|iref)*>
+		
+			<!ELEMENT iref (#PCDATA)>
+		
+		<!ELEMENT dtrn (#PCDATA)*>
+		
+		<!ELEMENT kref (#PCDATA)>
+		
+		<!ELEMENT def (#PCDATA|ex|dtrn)*>

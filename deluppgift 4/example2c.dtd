@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT newspapers (newspaper+)>
+
+<!ELEMENT newspaper (article+)>
+<!ATTLIST newspaper name CDATA #REQUIRED>
+<!ATTLIST newspaper subscribers CDATA #REQUIRED>
+<!ATTLIST newspaper type CDATA #REQUIRED>
+
+<!ELEMENT article (heading,text,comment?)>
+<!ATTLIST article id CDATA #REQUIRED>
+<!ATTLIST article time CDATA #IMPLIED>
+
+<!ELEMENT heading (#PCDATA)>
+
+<!ELEMENT text (#PCDATA)>
+
+<!ELEMENT comment EMPTY>
+<!ATTLIST comment description CDATA #REQUIRED>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE newspapers SYSTEM "example2c.dtd">
+
+<newspapers>
+<newspaper name="Times" subscribers="100.000" type="Morning Edition">
+	<article id="1232" time="2001-01-01" author="Jane Austen">
+		<heading>
+			This and that		
+		</heading>
+		<text>
+			This and that happened during the day and all were amazed.
+		</text>
+	</article>
+	<article id="1595">
+		<heading>
+			Another Great Happening
+		</heading>
+		<text>
+			Another Happening!
+		</text>
+		<comment description="Review"/>
+	</article>
+	<article id="1692" time="2001-01-02">
+		<heading>
+			Mother Goose Seen Again
+		</heading>
+		<text>
+			Very interesting information about childrens book character.
+		</text>
+	</article>
+</newspaper>
+<newspaper name="News of The World" subscribers="800.000" type="Evening Edition">
+	<article id="1832" time="2001-01-01">
+		<heading>
+			Horrible Happenings
+		</heading>
+		<text>
+			This and that happened during the evening and all were apalled.
+		</text>
+		<comment description="Review"/>
+	</article>
+	<article id="1895">
+		<heading>
+			Another Great Happening
+		</heading>
+		<text>
+			Another Happening!
+		</text>
+		<comment description="News"/>
+	</article>
+	<article id="1892" time="2001-01-02">
+		<heading>
+			Mother Goose Sadly Not Seen Again
+		</heading>
+		<text>
+			Childrens book character snuffed out by maffia.
+		</text>
+	</article>
+</newspaper>
+<newspaper name="The SUN" subscribers="300.000" type="Evening Edition">
+	<article id="1882" time="2011-01-01">
+		<heading>
+			All is Well
+		</heading>
+		<text>
+			Events unfolded and things happened.
+		</text>
+		<comment description="News"/>
+	</article>
+	<article id="1883">
+		<heading>
+			Even More Things
+		</heading>
+		<text>
+			Unjust musements.
+		</text>
+		<comment description="Review"/>
+	</article>
+	<article id="1884" time="2001-01-02">
+		<heading>
+			Mother Goose Lost In Battle
+		</heading>
+		<text>
+			Childrens book character still missing.
+		</text>
+	</article>
+</newspaper>
+</newspapers>
